@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: lightgray;
+            margin: 0px;
+        }
+        header{
+            width: auto;
+            background-color: rgb(215, 12, 12);
+            margin: 10px;
+            border-top-style: solid;
+            border-bottom-style: solid;
+            text-align: center;
+
+        }
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3em;
+            margin: 0px;
+            padding: 20px;
+        }
+        nav{
+           background-color: rgb(0, 140, 255);
+           box-shadow: 2px 2.5px 3px 1px rgba(0, 0, 0, 0.263);
+        }
+        nav > a{
+            color: rgb(48, 178, 221);
+            text-decoration: none;
+            color: black;
+            padding-right: 10px;
+            
+            
+            
+        }
+        a:hover{
+            color: yellow;
+        }
+        main{
+            width: auto;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: justify;
+            border-radius: 10px 0px 0px 10px;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.322);
+        }
+        article > aside{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        
+        footer{
+            background-color: rgb(215, 12, 12);
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+            border-top-style: solid;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border-radius: 50%;
+            margin: 10px auto;
+            border-style: solid;
+            border-width: 1px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Noticías</h1>
+        <nav>
+           <a href="#">link</a>
+           <a href="#">link</a>
+           <a href="#">link</a>
+           <a href="#">link</a> 
+        </nav>
+    </header>
+
+    <main>
+        <section id="Assuntos"></section>
+                <h2>Noticías sobre o Brasil</h2>
+        <section id="noticías">
+            <article>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, rem, quidem eaque molestias optio laboriosam nesciunt nam consequatur eos nulla sapiente. Aliquam commodi quis excepturi cum ab assumenda, optio voluptates.</p>
+            </article>
+            <article>
+                <aside>
+                    <p>Artigo escritopor José Da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo Cursoemvideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

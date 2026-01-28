@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas decoradas</title>
+    <style>
+
+        .bor{
+            border: 10px solid transparent;
+            padding: 10px;
+            border-image-source: url('borda.png');
+            border-image-slice: 120;
+            border-image-repeat: repeat;
+        }
+
+        div{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;
+            border-style: solid;
+            border-radius: 50%;
+            border-color: rgb(78, 202, 30);
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vamos adicionar bordas com decoração</h1>
+    </header>
+    <main>
+        <p class="bor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem exercitationem quia explicabo quasi odit? Dolores porro eos, unde suscipit saepe vitae repellat a pariatur. Quod repellat autem animi saepe alias.</p>
+        <div>
+            <p> Fim</p>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
