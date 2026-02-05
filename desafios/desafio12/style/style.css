@@ -32,21 +32,24 @@ header{
 header h1{
     padding-top: 50px;
     font-family: var(--fonte2);
-    font-size: 4em;
+    font-size: 5vw;
 }
 
 header p{
-    padding: 50px;
+    padding: 50px 0px 30px 0px;
 }
 
 a{
     color: white;
     text-decoration: none;
     font-weight: bolder;
+    border-radius: 10px;
+    padding: 4px;
 }
 
 a:hover{
     text-decoration: underline;
+    background-color: rgb(62, 62, 62);
 }
 
 section{
@@ -57,6 +60,10 @@ section{
     font-family: var(--fonte3);
     font-size: 3vw;
 }
+section p{
+    padding-bottom: 1em;    
+}
+
 
 section.normal{
     background-color: white;
@@ -64,19 +71,35 @@ section.normal{
 }
 
 section.imagem{
-    background-color: rgb(85, 84, 84);
+    background-color: rgba(0, 0, 0, 0.717);
     color: white;
+    box-shadow: inset 1px 6px 12px 0px rgba(0, 0, 0, 0.500);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    
 }
 
 .imagem > p{
     background-color: rgba(0, 0, 0, 0.292);
     display: inline-block;
     padding: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.217);
 }
 
 
 footer{
     background-color: black;
+    color: white;
     text-align: center;
     padding: 4px;
 }
