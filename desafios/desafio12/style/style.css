@@ -50,6 +50,7 @@ a{
 a:hover{
     text-decoration: underline;
     background-color: rgb(62, 62, 62);
+    transition-duration: 0.4s;
 }
 
 section{
