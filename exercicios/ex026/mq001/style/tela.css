@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*|| ESTILO PARA A TELA*/
+/*|| ESTILOS PARA A TELA*/
 
 *{
     padding: 0;
@@ -62,4 +62,8 @@ article{
 h2{
     margin-bottom: 20px;
     font-size: 2rem;
+}
+
+article p{
+    text-indent: 10px;
 }
