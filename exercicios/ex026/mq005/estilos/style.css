@@ -7,7 +7,7 @@
 
 :root{
     --cor1: #73B2D9;
-    --cor2: #592722;
+    --cor2: #ad2b1f;
     --cor3: #A64521;
     --cor4: #BF7C63;
 }
@@ -15,13 +15,13 @@
 html, body{
     width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--cor1);
+    background-color: var(--cor4);
     color: white;
 }
 
 
 header{
-    background-color: var(--cor2);
+    background-color: var(--cor3);
 }
 
 header h1{
@@ -29,8 +29,21 @@ header h1{
     text-align: center;
 }
 
-menu{
+header > span#burguer{
     display: block;
+    background-color: var(--cor3);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+header > span#burguer:hover{
+    background-color: var(--cor1);
+}
+
+menu{
+    display: none;
 }
 
 menu ul{
@@ -49,13 +62,13 @@ menu > ul > li > a{
 }
 
 menu a:hover{
-    background-color: var(--cor4);
+    background-color: var(--cor1);
     text-decoration: underline;
 }
 
 main{
     width: 90vw;
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     margin: auto;
     padding: 10px;
     border-radius: 10px;
