@@ -38,19 +38,16 @@ header{
     text-align: center;
     min-height: 150px;
     padding-top: 40px;
-
-
 }
 
 header > h1{
-font-family: var(--destaque);
-color: white;
-margin-top: 10px;
-margin-bottom: 20px;
-font-weight: normal;
-font-size: 3em;
-text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.374);
-
+    font-family: var(--destaque);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.374);
 }
 
 header > p{
@@ -152,13 +149,11 @@ img{
     display: block;
     margin: auto;
     max-width: 300px;
-    
 }
 
 div{
     background-color: var(--cor4);
     padding: 15px 25px 15px 25px;
-    
 }
 
 div.video{
