@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        p{
+            font-size: 2em;
+            text-align: center;
+        }
+        .conteiner-row{
+            background-color: blueviolet;
+            display: flex;
+            padding: 10px;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .conteiner-column{
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            text-align: center;
+        }
+        .item{
+            background-color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <p> &rarr; main axis</p>
+    <div class="conteiner-row">
+        <div class="item">A</div>
+        <div class="item">C</div>
+        <div class="item">B</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+    <p> &darr; main axis</p>
+    <div class="conteiner-column">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>
