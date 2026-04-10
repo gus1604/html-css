@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box</title>
+    <style>
+        div.conteiner{
+            display: flex;
+            background-color: aqua;
+            /*flex-wrap: wrap;
+            flex-direction: row-reverse;*/
+            flex-flow: row wrap;
+        }
+        div.item{
+            padding: 5px;
+            background-color: blueviolet;
+            border-left: 1.5px solid black;
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando o flex-box</h1>
+    <div class="conteiner">
+        <div class="item">Exemplo de bloco A</div>
+        <div class="item">Exemplo de bloco B</div>
+        <div class="item">Exemplo de bloco C</div>
+        <div class="item">Exemplo de bloco D</div>
+        <div class="item">Exemplo de bloco E</div>
+        <div class="item">Exemplo de bloco F</div>
+        <div class="item">Exemplo de bloco G</div>
+    </div>
+</body>
+</html>
