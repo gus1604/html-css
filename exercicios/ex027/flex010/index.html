@@ -7,12 +7,15 @@
     <style>
         div.conteiner{
             display: flex;
-            text-align: center;
-            background-color: aqua;
+            background-color: greenyellow;
+            flex-flow: row nowrap;
         }
         div.item{
-            background-color: blueviolet;
-            flex: auto;
+            background-color: lightblue;
+            border: 1px solid black;
+            flex-basis: 200px;
+            flex-shrink: 1;
+            flex-grow: 1;
         }
     </style>
 </head>
@@ -22,10 +25,6 @@
         <div class="item">A</div>
         <div class="item">B</div>
         <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
     </div>
 </body>
 </html>
